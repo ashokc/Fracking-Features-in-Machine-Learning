@@ -24,7 +24,7 @@ A fracking indicator based on the new data points with low classification confid
 
 The following will simulate data evolution in a 2-feature (x & y), 4-class situation where the training data is such that there are gaps in the feature space. The arrival of new data into these previously empty zones is detectable by keeping track of the new data with low classification confidence. Run the simulation with:
 
-  pipenv run python ./fracking.py 250 4
+	pipenv run python ./fracking.py 250 4
 
 where the initial training data consists of 250 points each in the 4 data zones. The run will generate pictures such as the one below that shows the steady fillout of previously empty zones.
 
